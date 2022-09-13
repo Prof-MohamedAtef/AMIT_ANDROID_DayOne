@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable-v24/color_border.xml" value="0.279" />
+        <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable-v24/color_border_changed.xml" value="0.279" />
+        <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable-v24/image_border.xml" value="0.279" />
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable/background_white.xml" value="0.279" />
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable/dayone_text_border.xml" value="0.279" />
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable/ic_center_focus.xml" value="0.279" />
+        <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/drawable/search_box_shape.xml" value="0.279" />
+        <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/layout-w600dp/activity_main.xml" value="0.31040564373897706" />
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/layout/activity2_main.xml" value="0.358695652173913" />
         <entry key="..\:/softwareProjects/DayOneAndroidUI/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
       </map>

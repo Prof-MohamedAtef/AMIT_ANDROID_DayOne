@@ -141,7 +141,33 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/MiddleLayout"
+        android:layout_above="@+id/BottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_border_changed">
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/centerCameraLayout"/>
+        <RelativeLayout
+            android:id="@+id/centerCameraLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/focus"
+                android:layout_alignParentEnd="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
     <LinearLayout
+        android:id="@+id/BottomLayout"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

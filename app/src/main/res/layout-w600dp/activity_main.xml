@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent">
-    <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -112,43 +109,5 @@
         app:layout_constraintBottom_toBottomOf="@id/tvExclusive"
         app:layout_constraintEnd_toEndOf="@id/storeImg"/>
 
-    <FrameLayout
-        android:id="@+id/frameItems"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:layout_constraintStart_toStartOf="@id/searchTIL"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvExclusive"
-        android:layout_marginTop="20dp"/>
-    <TextView
-        android:id="@+id/tvBestSelling"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/best_selling"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@+id/frameItems"
-        app:layout_constraintStart_toStartOf="@+id/storeImg"
-        android:layout_marginTop="20dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/see_all"
-        android:textSize="18sp"
-        android:textColor="@color/green"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="@id/tvBestSelling"
-        app:layout_constraintBottom_toBottomOf="@id/tvBestSelling"
-        app:layout_constraintEnd_toEndOf="@id/storeImg"/>
-    <FrameLayout
-        android:id="@+id/frameBest"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:layout_constraintStart_toStartOf="@id/searchTIL"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvBestSelling"
-        android:layout_marginTop="20dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
